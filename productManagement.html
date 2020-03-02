@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="sheetStyle.css">
+</head>
+<body onload="document.getElementById('tablePos').innerHTML=displayTable(NameProduct)">
+<h3>Add New Product</h3>
+<input type="text" placeholder="New Product" id="addValue">
+<input type="button" value="Add" onclick="addArr()">
+<input type="text" placeholder="Search Product" id="Search">
+<input type="button" value="Search" onclick="search()">
+</tr>
+</table>
+<h3>Display All Products</h3>
+<span id="tablePos"></span>
+</body>
+<script src="functions.js"></script>
+</html>
